@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: Calibri, sans-serif;    
+    padding:5px;
+}
+#wrapper {
+    margin:0 auto;
+    max-width:500px;
+    padding:5px;
+    border-radius:5px;
+}
+th, td {
+    border:1px solid lightgray;
+    padding:10px;
+}
+thead th:first-of-type {
+    border:none;
+}
+@media (min-width:$desktop-breakpoint) {
+    body {
+        padding:20px;
+    }
+    #wrapper {
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+        border:1px solid lightgray;
+        padding:20px;
+    }
+}
