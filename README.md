@@ -34,7 +34,7 @@
 </table>
 <h3>Usage</h3>
 <ul>
-    <li><strong>git clone</strong></li>
+    <li><strong>git clone https://github.com/pawelsz1986/gulp-webpack-starter.git</strong></li>
     <li><strong>npm install</strong> (to install dependencies)</li>
     <li><strong>gulp</strong> (to run development mode)</li>
     <li><strong>gulp deploy</strong> (to emit production ready files)</li>
